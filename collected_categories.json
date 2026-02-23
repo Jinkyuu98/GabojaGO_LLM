@@ -1,0 +1,722 @@
+[
+    {
+        "assigned_cat": "F",
+        "place_name": "우와 홍대본점",
+        "category_name": "음식점 > 일식",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "목화반점",
+        "category_name": "음식점 > 중식 > 중국요리",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "카페감자밭 본점",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "원조조박집 본관",
+        "category_name": "음식점 > 한식 > 육류,고기",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "중화요리팔공",
+        "category_name": "음식점 > 중식 > 중국요리",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "본수원갈비 본점",
+        "category_name": "음식점 > 한식 > 육류,고기 > 갈비",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "욕쟁이할머니집",
+        "category_name": "음식점 > 한식",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "숯골원냉면 본점",
+        "category_name": "음식점 > 한식",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "어글리베이커리",
+        "category_name": "음식점 > 간식 > 제과,베이커리",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "미소본가스마일칼국수",
+        "category_name": "음식점 > 한식 > 국수 > 칼국수",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "진옥화할매원조닭한마리 본점",
+        "category_name": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "백부장집닭한마리 본관",
+        "category_name": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "계림 종로본점",
+        "category_name": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "복성루",
+        "category_name": "음식점 > 중식 > 중국요리",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "봉평메밀미가연",
+        "category_name": "음식점 > 한식 > 국수",
+        "category_group_name": "음식점"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "카페감자밭 본점",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "로스가든",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "카페공명 연남점",
+        "category_name": "음식점 > 카페 > 커피전문점",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "프릳츠 도화점",
+        "category_name": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "어니언 성수",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "가배도 신논현점",
+        "category_name": "음식점 > 카페 > 다방",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "테라로사 서종점",
+        "category_name": "음식점 > 카페 > 커피전문점",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "베이커리씨어터",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "해어름",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "커피앤시가렛",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "테라로사 사천점",
+        "category_name": "음식점 > 카페 > 커피전문점",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "서울서둘째로잘하는집",
+        "category_name": "음식점 > 카페 > 전통찻집",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "보헤미안로스터즈 박이추커피공장",
+        "category_name": "음식점 > 카페 > 커피전문점",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "청사포역",
+        "category_name": "음식점 > 카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "F",
+        "place_name": "수수카페",
+        "category_name": "음식점 > 카페 > 테마카페 > 갤러리카페",
+        "category_group_name": "카페"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "김해국제공항 P2국제선주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "인천국제공항 제2여객터미널 장기주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "인천국제공항 제1여객터미널 단기주차장 C구역",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "서울역KTX빌딩 주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "1100고지휴게소 주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "인천국제공항 제2터미널 단기주차장 서편",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "김포공항 국내선 제1주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "성심당 본점 주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "반계리 은행나무 주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "속초관광수산시장 공영주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장 > 공영주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "죽도시장 제3공영주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장 > 공영주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "김해국제공항 P1국내선주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "인천국제공항 제1여객터미널 단기주차장 A구역",
+        "category_name": "교통,수송 > 교통시설 > 주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "종묘주차장 공영주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장 > 공영주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "야당역 환승주차장",
+        "category_name": "교통,수송 > 교통시설 > 주차장 > 공영주차장",
+        "category_group_name": "주차장"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "강남역 2호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권2호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "낙성대역 2호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권2호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "홍대입구역 2호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권2호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "서울대입구역 2호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권2호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "혜화역 4호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권4호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "주안역 1호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권1호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "당산역 2호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권2호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "사당역 2호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권2호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "동래역 부산1호선",
+        "category_name": "교통,수송 > 지하철,전철 > 부산1호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "잠실역 2호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권2호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "여의도역 5호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권5호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "의정부역 1호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권1호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "부평역 1호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권1호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "명동역 4호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권4호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "T",
+        "place_name": "천호역 5호선",
+        "category_name": "교통,수송 > 지하철,전철 > 수도권5호선",
+        "category_group_name": "지하철역"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "이비스 스타일 앰배서더 서울 용산",
+        "category_name": "여행 > 숙박 > 호텔 > 앰배서더호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "신라스테이 제주",
+        "category_name": "여행 > 숙박 > 호텔 > 신라스테이",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "노보텔 앰배서더 서울 동대문 호텔 & 레지던스",
+        "category_name": "여행 > 숙박 > 호텔 > 앰배서더호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "라마다바이윈덤 군산",
+        "category_name": "여행 > 숙박 > 호텔 > 라마다호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "롯데시티호텔 명동",
+        "category_name": "여행 > 숙박 > 호텔 > 롯데호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "롯데호텔 월드",
+        "category_name": "여행 > 숙박 > 호텔 > 롯데호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "JW 메리어트 동대문 스퀘어 서울",
+        "category_name": "여행 > 숙박 > 호텔 > 메리어트호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "JW 메리어트 제주 리조트 & 스파",
+        "category_name": "여행 > 숙박 > 호텔 > 메리어트호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "롯데시티호텔 김포공항",
+        "category_name": "여행 > 숙박 > 호텔 > 롯데호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "롯데시티호텔 구로",
+        "category_name": "여행 > 숙박 > 호텔 > 롯데호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "JW 메리어트 호텔 서울",
+        "category_name": "여행 > 숙박 > 호텔 > 메리어트호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "라마다프라자&씨원리조트 자은도",
+        "category_name": "여행 > 숙박 > 호텔 > 라마다호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "라마다호텔 속초",
+        "category_name": "여행 > 숙박 > 호텔 > 라마다호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "라마다프라자바이윈덤 여수",
+        "category_name": "여행 > 숙박 > 호텔 > 라마다호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "라마다바이윈덤 서울동대문",
+        "category_name": "여행 > 숙박 > 호텔 > 라마다호텔",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "선유도 리조트",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "대부도펜션시티",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "부여파크아트빌라스",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "모꼬지펜션",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "강상골",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "킹덤키즈풀빌라",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "엘리스테이 여수",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "황남고택",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "용문산리조트펜션",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "바닷가산책펜션",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "올라운드원 홍천점",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "슈가펜션",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "해밀펜션",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "멍펜션",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "L",
+        "place_name": "라온빌리지펜션",
+        "category_name": "여행 > 숙박 > 펜션",
+        "category_group_name": "숙박"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 7코스(서귀포-월평 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 1코스(시흥-광치기 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 6코스(쇠소깍-서귀포 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 17코스(광령-제주원도심 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 8코스(월평-대평 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 5코스(남원-쇠소깍 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 16코스(고내-광령 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 10코스(화순-모슬포 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "북한산둘레길 1구간소나무숲길",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 둘레길 > 북한산둘레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 4코스(표선-남원 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 1-1코스(우도-올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 18코스(제주원도심-조천 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올레길 19코스(조천-김녕 올레)",
+        "category_name": "여행 > 관광,명소 > 도보여행 > 올레길 > 제주올레길",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "에버랜드",
+        "category_name": "여행 > 관광,명소 > 테마파크",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "경복궁",
+        "category_name": "여행 > 관광,명소 > 문화유적 > 고궁,궁",
+        "category_group_name": "관광명소"
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "여의도한강공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "낙산공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "휴애리자연생활공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "올림픽공원",
+        "category_name": "여행 > 공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "서울숲",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "뚝섬한강공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "북서울꿈의숲",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "남산공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "대왕암공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "일산호수공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "선유도공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "보라매공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "하늘공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "송도센트럴파크",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    },
+    {
+        "assigned_cat": "E",
+        "place_name": "반포한강공원",
+        "category_name": "여행 > 공원 > 도시근린공원",
+        "category_group_name": ""
+    }
+]
