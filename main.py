@@ -2,12 +2,15 @@ import os
 import uvicorn
 from fastapi import FastAPI
 from dotenv import load_dotenv
-
-# .env 파일 로드 (OpenAI API Key 등)
+import logging
 load_dotenv()
+log_level = os.getenv("LOG_LEVEL").upper()
+logging.basicConfig(level=log_level, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+logger.info(f"Log Level: {log_level}")
 
-# vision_llm 모듈 임포트
 from vision_llm.expense import router as expense_router
+from schedule.schedule_routes import router as schedule_router
 
 app = FastAPI(title="GabojaGO Vision LLM Local Test Server")
 
@@ -16,6 +19,11 @@ app.include_router(
     expense_router,
     prefix="/expense",
     tags=["Expense"]
+)
+app.include_router(
+    schedule_router,
+    prefix="/schedule",
+    tags=["Schedule"]
 )
 
 @app.get("/")
