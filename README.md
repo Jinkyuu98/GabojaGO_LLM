@@ -50,7 +50,11 @@ python main.py
 ```bash
 python rule_category/test_rules.py
 ```
+### 📦 의존성 설치
+본격적인 실행 전에 파이썬 환경(가상환경 권장)에 필요한 모든 의존성을 아래 명령어로 설치해 주세요.
+```bash
+pip install -r requirements.txt
+```
 
 ## ⚠️ 주의사항
 - API 키(OpenAI 등)와 같은 민감한 설정 정보는 루트 폴더의 `.env` 파일에 기록되어 있어야만 정상적으로 동작합니다.
-- 시작하기 전에 파이썬 환경(가상환경 등)에 필요한 리스트가 잘 설치되어 있는지 확인하세요 (`fastapi`, `uvicorn`, `langchain-openai`, `python-dotenv` 등).
