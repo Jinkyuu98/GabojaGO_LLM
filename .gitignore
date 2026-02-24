@@ -1,0 +1,12 @@
+*.pyc
+.env
+*.sql
+
+Test/*
+
+__pycache__/
+*.pyc
+
+dataset/
+receipt/
+backend/
