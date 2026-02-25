@@ -30,7 +30,7 @@ async def request_location(schedule_data: ScheduleResponse):
     DB/카카오 API 서버가 요구하는 스키마(LocationRequestListModel)로 파싱하여 반환합니다.
     """
     place_items = []
-        for day in schedule_data.day_schedules:
+    for day in schedule_data.day_schedules:
         for act in day.activities:
             place_items.append(
                 LocationRequestItemModel(
