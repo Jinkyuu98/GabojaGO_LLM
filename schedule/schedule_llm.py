@@ -18,7 +18,7 @@ class ScheduleGPT(TripGPT):
         "2. 기간(dtDate1 ~ dtDate2): 시작일의 오전부터 종료일의 오후까지 전체 기간을 빠짐없이 채워라.\n"
         "3. 동행자(strWithWho) & 인원(nTotalPeople): 동행자의 성격(가족, 연인, 혼자 등)에 적합한 장소를 추천해라.\n"
         "4. 이동수단(strTransport): 설정된 이동수단으로 이동 가능한 현실적인 동선을 고려해라.\n"
-        "5. 테마 및 예산: 사용자가 입력한 여행 테마와 예산 규모를 반영하여 장소의 등급과 활동을 결정해라.\n\n"
+        "5. 테마 및 예산: 사용자가 입력한 예산(nTotalBudget, nTransportRatio, nLodgingRatio, nFoodRatio)을 반영하여 장소의 등급과 활동을 결정해라.\n\n"
 
         "[출력 형식 규칙]\n"
         "1. day_schedules 리스트 내에 날짜별로 'Day1', 'Day2' 순서대로 객체를 생성해라.\n"
@@ -31,7 +31,7 @@ class ScheduleGPT(TripGPT):
         prompt = ChatPromptTemplate.from_messages([
             ("system", system_prompt),
             ("system", "{format_instructions}"),
-            ("human", "위치: {strWhere}, 기간: {dtDate1}~{dtDate2}, 동행: {strWithWho}, 교통: {strTransport}"),
+            ("human", "위치: {strWhere}, 기간: {dtDate1}~{dtDate2}, 동행: {strWithWho}, 교통: {strTransport}, 총예산: {nTotalBudget}원(교통:{nTransportRatio}, 숙박:{nLodgingRatio}, 식비:{nFoodRatio})"),
         ]).partial(format_instructions=output_parser.get_format_instructions())
         
         self.chain = prompt | self._llm | output_parser

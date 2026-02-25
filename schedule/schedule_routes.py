@@ -42,9 +42,12 @@ async def save_schedule(save_data: SaveScheduleRequest):
     #                 strWithWho=save_data.strWithWho,
     #                 strTransport=save_data.strTransport,
     #                 nTotalPeople=save_data.nTotalPeople,
-    #                 nTotalBudget=save_data.budget.total_budget if save_data.budget else 0,
-    #                 nAlarmRatio=save_data.budget.budget_ratio if save_data.budget else 25,
-    #                 chStatus='P'
+    #                 nTotalBudget=save_data.nTotalBudget,
+    #                 nAlarmRatio=save_data.nAlarmRatio,
+    #                 nTransportRatio=save_data.nTransportRatio,
+    #                 nLodgingRatio=save_data.nLodgingRatio,
+    #                 nFoodRatio=save_data.nFoodRatio,
+    #                 chStatus=save_data.chStatus or 'P'
     #             )
     #             DB.EXECUTE(cursor, ScheduleTable.TO_INSERT_QUERY(sm))
     #             schedule_id = cursor.lastrowid
