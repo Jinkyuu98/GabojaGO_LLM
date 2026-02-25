@@ -22,30 +22,28 @@ class ExpenseGPT(TripGPT):
         super().__init__(LLM_MODEL_EXPENSE)
         output_parser = PydanticOutputParser(pydantic_object=ExpenseModel)
         system_prompt = (
-            "너는 영수증 이미지에서 정보를 추출해 JSON으로 구조화하는 AI다. 반드시 JSON만 출력하고 다른 설명은 하지 마라.\n"
-            "\n"
-            "[추출 필드 정의]\n"
-            "- store_name: 영수증 상호명\n"
-            "- date: 영수증에 보이는 날짜/시간을 읽고, 가능하면 YYYY-MM-DD HH:MM:SS 또는 YYYY-MM-DD로 반환\n"
-            "- total: 사용자가 실제로 지불한 금액(실지불/실결제/받은금액/결제금액/카드승인금액/현금지불에 해당)\n"
-            "- original_total: 할인/쿠폰 적용 전 합계(합계/정가/총액)\n"
-            "- discount_amount: 할인/쿠폰/제휴할인/포인트 차감으로 줄어든 금액(할인금액)\n"
-            "\n"
-            "[중요 규칙]\n"
-            "1) total은 '합계'가 아니라 '실제로 지불한 금액'이다.\n"
-            "2) 할인/쿠폰이 있으면 가능하면 original_total - discount_amount = total 관계가 성립하도록 해석하라.\n"
-            "3) 확실하지 않으면 해당 값은 null로 둬라.\n"
-            "\n"
-            "[evidence 규칙]\n"
-            "evidence에는 각 필드를 확인할 수 있는 영수증 원문 라인을 가능한 한 그대로 넣어라(요약/추측 금지).\n"
-            "단, 카드번호/승인번호/전화번호/주소 등 민감정보는 절대 그대로 출력하지 말고 '[REDACTED]'로 마스킹하라.\n"
-            "민감정보가 섞인 줄은 가능한 다른 줄(예: '합계 4,600', '할인금액 4,600', '받은금액 500')을 evidence로 선택하라.\n"
+            """
+            너는 영수증 이미지에서 정보를 추출해 JSON으로 구조화하는 AI다. 반드시 JSON만 출력하고 다른 설명은 하지 마라.
+            
+            [추출 필드 정의 및 생성 규칙]
+            - category: 영수증의 내용을 분석하여 결제 종류를 추측해라. 반드시 다음 4개 중 하나를 반환해라 (F: 식비, T: 교통비, L: 숙박비, E: 기타).
+            - date: 영수증에 보이는 결제 날짜/시간을 읽고, 반드시 'YYYY-MM-DD HH:MM:SS' 형식의 문자열로 반환해라 (시간이 없으면 00:00:00 처리).
+            - total: 사용자가 실제로 지불한 최종 결제 금액 (숫자만 반환).
+            - strMemo: 영수증 분석 내용을 바탕으로 다음 형식에 맞춰 하나의 문자열로 요약해라.
+              형식: "상호명: [상호명], 내용: [구매품목이나 영수증 내용 요약 (evidence 포함)]"
+              예시: "상호명: 스타벅스 제주성산점, 내용: 아메리카노 외 1건 (합계 10000)"
+            
+            [중요 규칙]
+            1) total은 '합계'가 아니라 '실제로 결제한 금액'이다.
+            2) strMemo를 작성할 때 카드번호/승인번호/전화번호 등 민감정보는 절대 포함시키지 말고 '[REDACTED]'로 마스킹하라.
+            3) 확실하지 않은 정보(예: 할인금액이 없는 경우)는 0으로 처리하거나 메모 작성 시 생략해라.
+            """
         )
         prompt = ChatPromptTemplate.from_messages([
             ("system", system_prompt),
             ("system", "{format_instructions}"),
             ("human", [
-                {"type": "text", "text": "이 영수증에서 store_name, date, total(실지불), original_total(합계), discount_amount(할인), evidence를 추출해라."},
+                {"type": "text", "text": "이 영수증에서 category(분류), date(결제일시), total(실결제금액), strMemo(상호명/카테고리 근거)를 추출해 JSON으로 응답해라."},
                 {"type": "image_url", "image_url": "{image_data}"}
             ]),
         ]).partial(format_instructions=output_parser.get_format_instructions())

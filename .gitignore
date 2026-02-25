@@ -6,6 +6,8 @@ Test/*
 
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 dataset/
 receipt/
