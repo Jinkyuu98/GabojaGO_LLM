@@ -14,12 +14,9 @@ async def parse_expense(file: UploadFile = File(...)):
     try:
         image_bytes = await file.read()
         content_type = file.content_type
-
-        # 1) validation + data uri 변환
         data_uri = to_data_uri(image_bytes, content_type)
-        # 2) LLM 호출
-        result = OCR_model.chain.invoke({"image_data": data_uri})
-        # 3) JSON 반환
+        result = OCR_model.chain.invoke({"image_data": data_uri})\
+        
         return result.model_dump()
 
     except ImageValidationError as e:
